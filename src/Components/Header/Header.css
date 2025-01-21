@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 33px 33px 20px 86px;
+}
+
+.header__logo-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__profile-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo{
+        width: 156px;
+    height: 48px;
+}
+
+.header__divider{
+    height: 28px;
+    width:3px;
+    background-color: white;
+    margin: 0 16px;
+}
+
+.header__announcement{
+    color: #C8C8C8;
+    font-family: 'KyivType';
+    font-size: 24px;
+    font-weight: 500;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header__search-button{
+    width: 43px;
+    height: 43px;
+    margin-right: 45px;
+}
+
+.header__profile-picture{
+    width: 74px;
+    height: 74px;
+}
+

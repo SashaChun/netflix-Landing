@@ -1,0 +1,103 @@
+@media (max-width: 1024px) {
+    .AboutFilm {
+        padding: 15px 15px 0 15px;
+        margin-top: 50px;
+    }
+
+    .AboutFilm__genres {
+        font-size: 28px;
+    }
+
+    .AboutFilm__title {
+        font-size: 50px;
+    }
+
+    .AboutFilm__details {
+        flex-wrap: wrap;
+    }
+
+    .AboutFilm__year,
+    .AboutFilm__seasons-label,
+    .AboutFilm__director-label {
+        font-size: 24px;
+    }
+
+    .AboutFilm__director-name,
+    .AboutFilm__seasons-count {
+        font-size: 22px;
+    }
+
+    .AboutFilm__description {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .AboutFilm__button-episodes ,
+    .AboutFilm__button-stream
+    {
+        width: 232px;
+        height: 64px;
+        font-size: 18px;
+    }
+
+    .AboutFilm__button-stream div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .AboutFilm__button-episodes {
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .AboutFilm {
+        padding: 15px;
+        margin-top: 25px;
+        text-align: start;
+    }
+
+    .AboutFilm__genres {
+        font-size: 20px;
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .AboutFilm__title {
+        font-size: 38px;
+    }
+
+    .AboutFilm__details {
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .AboutFilm__year,
+    .AboutFilm__seasons-label,
+    .AboutFilm__director-label {
+        font-size: 18px;
+    }
+
+    .AboutFilm__director-name,
+    .AboutFilm__seasons-count {
+        font-size: 14px;
+    }
+
+    .AboutFilm__description {
+        font-size: 14px;
+        width: 100%;
+    }
+    .AboutFilm__button-episodes ,
+    .AboutFilm__button-stream
+    {
+        width: 202px;
+        height: 54px;
+        font-size: 15px;
+    }
+
+    .AboutFilm__button-episodes {
+        margin-left: 20px;
+    }
+}

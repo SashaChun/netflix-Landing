@@ -1,0 +1,49 @@
+/* Фонова картинка */
+.backGround {
+    background-image: url("../assets/bg-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+/* Анімація частинок */
+.anime {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100vh;
+    z-index: -2;
+    pointer-events: none;
+}
+
+/* Анімація появи контенту */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Основний контент */
+.header, .popular, .aboutFilm {
+    position: relative;
+    z-index: 1;
+}
