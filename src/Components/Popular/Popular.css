@@ -10,16 +10,6 @@
     font-weight: 800;
 }
 
-.popular__film {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-}
-
-.popular__film:hover {
-    transform: scale(1.1);
-}
 
 .popular__header {
     padding: 33px 33px 20px 86px;
@@ -70,11 +60,19 @@
 }
 
 .popular__film {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popular__film {
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
     flex-shrink: 0;
     width: 151px;
     height: 210px;
     border: 1px solid white;
-    object-fit: cover;
 }
 
 @media (max-width: 1024px) {
