@@ -10,6 +10,17 @@
     font-weight: 800;
 }
 
+.popular__film {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popular__film:hover {
+    transform: scale(1.1);
+}
+
 .popular__header {
     padding: 33px 33px 20px 86px;
     display: flex;
@@ -29,10 +40,18 @@
 }
 
 .popular__button--prev * {
-    width: 38px;
-    height: 38px;
-    opacity: 80%;
+    width: 41px;
+    height: 41px;
 }
+
+.popular__button.disabled * {
+    opacity: 80%;
+    cursor: not-allowed;
+    width: 35px;
+    height: 35px;
+}
+
+
 
 .popular__button--next * {
     width: 41px;
@@ -48,7 +67,6 @@
 .popular__films {
     display: flex;
     gap: 40px;
-    margin-left: -110px;
 }
 
 .popular__film {
